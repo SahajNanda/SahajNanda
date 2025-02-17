@@ -1,4 +1,4 @@
-## Hi there 👋
+## Fourth Year CS Major at the University of Georgia
 
 <!--
 **SahajNanda/SahajNanda** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

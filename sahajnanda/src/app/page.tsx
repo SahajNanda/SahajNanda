@@ -10,7 +10,7 @@ export default function Home() {
     setExpandedIndex(expandedIndex === index ? null : index);
   };
 
-  let cards = [
+  const cards = [
     { title: 'ABOUT', children: <h2>hey</h2>, color: 'blue' },
     { title: 'EDUCATION', children: <h2>hey</h2>, color: 'red' },
     { title: 'EXPERIENCE', children: <h2>heyyyyyyyyyyyyyyyyyyyyy</h2>, color: 'green' },

@@ -6,7 +6,7 @@ export default function Home() {
     <Outline>
       <div className="flex flex-col items-center justify-center py-2">
         <h1 className="text-4xl font-bold">
-          Hello, I'm Sahaj!
+          Hello, I&#39;m Sahaj!
         </h1>
       </div>
     </Outline>

@@ -18,7 +18,7 @@ export default function Home() {
         </h1>
         <p className="mt-4 text-3xl">
           <ReactTyped
-            strings={["I'm a Cybersecurity Graduate Student at the University of Georgia"]}
+            strings={["I'm a cybersecurity student at the University of Georgia"]}
             typeSpeed={20}
             backSpeed={20}
             cursorChar="|"

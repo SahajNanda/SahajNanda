@@ -4,7 +4,6 @@ import Outline from "../components/outline";
 
 const data = {
     basics: {
-        name: "Sahaj Nanda",
         headline: "Cybersecurity and Privacy M.S. student at the University of Georgia",
     },
     sections: {
@@ -103,8 +102,8 @@ const data = {
                     ],
                 },
                 {
-                    name: "This website :)",
-                    summary: ["A next.js project hosted on vercel"]
+                    name: "This Website :]",
+                    summary: ["A Next.js project hosted on Vercel"]
                 }
             ],
         },
@@ -132,9 +131,6 @@ export default function Home() {
     return (
         <Outline>
             <header className="mb-10 text-center">
-                <h1 className="text-4xl font-bold text-emerald-400">
-                    {basics.name}
-                </h1>
                 <p className="text-lg text-emerald-200">{basics.headline}</p>
             </header>
             <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10">

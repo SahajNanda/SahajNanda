@@ -10,7 +10,7 @@ export default function Home() {
         <h1 className="text-6xl font-bold">
           <ReactTyped
             strings={["Hello, I'm Sahaj!"]}
-            typeSpeed={80}
+            typeSpeed={60}
             backSpeed={20}
             cursorChar="|"
             showCursor={false}
@@ -19,10 +19,10 @@ export default function Home() {
         <p className="mt-4 text-3xl">
           <ReactTyped
             strings={["I'm a Cybersecurity Graduate Student at the University of Georgia"]}
-            typeSpeed={40}
+            typeSpeed={20}
             backSpeed={20}
             cursorChar="|"
-            startDelay={3000}
+            startDelay={2500}
             showCursor={false}
           />
         </p>

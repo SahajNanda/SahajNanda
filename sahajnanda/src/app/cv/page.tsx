@@ -119,7 +119,7 @@ const skills: CvItem[] = [
 export default function Home() {
     return (
         <Outline>
-            <header className="mb-2 flex md:flex-row items-center justify-between">
+            <header className="mb-2 flex flex-col md:flex-row items-center justify-between">
                 <p className="text-2xl font-bold text-emerald-500 py-8 px-16 hover:animate-pulse cursor-default">Cybersecurity and Privacy M.S. student at the University of Georgia</p>
                 <button
                     onClick={() => {

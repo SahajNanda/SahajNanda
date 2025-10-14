@@ -26,14 +26,14 @@ export default function ContactPage() {
         <Outline>
             <div className="flex flex-col items-center justify-center p-4">
                 <div className="max-w-xl ">
-                    <h1 className="text-4xl font-semibold text-emerald-400 mb-6 text-center">
+                    <h1 className="text-4xl font-semibold text-emerald-500 mb-6 text-center hover:animate-pulse cursor-default">
                         Contact Me
                     </h1>
-                    <p className="text-gray-300 mb-8 text-center">
+                    <p className="text-gray-300 mb-8 text-center hover:text-emerald-500 hover:animate-pulse transition duration-900 ease-in-out cursor-default">
                         Fill out the form below or email me directly at{" "}
                         <a
                             href="mailto:tosahajnanda@gmail.com"
-                            className="text-emerald-400 hover:text-emerald-300 transition-colors"
+                            className="text-emerald-500 hover:underline cursor-pointer"
                         >
                             tosahajnanda@gmail.com
                         </a>.
@@ -92,7 +92,7 @@ export default function ContactPage() {
 
                             <button
                                 type="submit"
-                                className="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-medium py-2 px-4 rounded-md transition-colors duration-300 ease-in-out"
+                                className="w-full bg-emerald-600 text-white font-medium py-2 px-4 rounded-full hover:animate-pulse cursor-pointer"
                             >
                                 Send Message
                             </button>

@@ -119,9 +119,8 @@ const skills: CvItem[] = [
 export default function Home() {
     return (
         <Outline>
-
-            <header className="mb-2 flex flex-row items-center justify-between">
-                <p className="text-2xl font-bold text-emerald-400 py-8 px-16">Cybersecurity and Privacy M.S. student at the University of Georgia</p>
+            <header className="mb-2 flex md:flex-row items-center justify-between">
+                <p className="text-2xl font-bold text-emerald-500 py-8 px-16 hover:animate-pulse cursor-default">Cybersecurity and Privacy M.S. student at the University of Georgia</p>
                 <button
                     onClick={() => {
                         const pdfUrl = '/sahaj-nanda.pdf';
@@ -130,7 +129,7 @@ export default function Home() {
                         link.download = 'sahaj-nanda.pdf';
                         link.click();
                     }}
-                    className="bg-emerald-600 hover:bg-emerald-400 text-white font-bold py-2 px-4 rounded-full mx-16 h-min transition duration-300 ease-in-out cursor-pointer"
+                    className="bg-emerald-600 font-bold py-2 px-4 rounded-full mx-16 h-min hover:animate-pulse cursor-pointer"
                 >
                     Download Resume
                 </button>
@@ -153,7 +152,6 @@ export default function Home() {
                     <CvSection title="Skills" items={skills} />
                 </div>
             </section>
-
         </Outline>
     );
 }

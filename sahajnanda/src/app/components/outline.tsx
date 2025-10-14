@@ -4,7 +4,7 @@ import Footer from './footer';
 
 function Outline({ children }: { children: React.ReactNode }) {
     return (
-        <div className="font-sans text-white bg-emerald-950 bg-[url('/xv.png')] bg-repeat bg-[length:100px_100px] bg-fixed">
+        <div className="font-sans text-white bg-emerald-950 bg-[url('/black-thread-light.png')] bg-repeat  bg-fixed">
             <div className="fixed top-0 left-0 inset-x-0 z-50">
                 <Navbar />
             </div>

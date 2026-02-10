@@ -19,13 +19,13 @@ function CvItem({ title, date, subtitle1, subtitle2, details, terms }: CvItem) {
                     {date && <span>{date}</span>}
                 </h2>
 
-                <h3 className="text-sm text-gray-300 group-hover:text-emerald-500 transition duration-900 ease-in-out flex flex-row justify-between cursor-default">
+                <h3 className="text-sm text-slate-300 group-hover:text-emerald-500 transition duration-900 ease-in-out flex flex-row justify-between">
                     {subtitle1 && <span>{subtitle1}</span>}
                     {subtitle2 && <span>{subtitle2}</span>}
                 </h3>
             </div>
 
-            <ul className="list-disc ml-5 text-gray-300">
+            <ul className="list-disc ml-5 text-slate-300">
                 {details?.map((detail, index) => (
                     <li key={index} className="hover:text-emerald-500 hover:animate-pulse transition duration-900 ease-in-out cursor-default">{detail}</li>
                 ))}

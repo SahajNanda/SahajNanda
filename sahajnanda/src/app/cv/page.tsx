@@ -22,6 +22,16 @@ const education: CvItem[] = [
 
 const experience: CvItem[] = [
     {
+        title: "University of Georgia",
+        date: "August 2025 - Present",
+        subtitle1: "Project Engineer",
+        subtitle2: "Athens, GA",
+        details: [
+            "Developed auto graded assignments for the UGA Web Development class covering topics such as Node/React, Javascript, and HTML/CSS",
+            "Collaborated on assignment material for Web Development class through weekly meetings"
+        ],
+    },
+    {
         title: "Capgemini",
         date: "June 2025 - July 2025",
         subtitle1: "LAUNCH Intern",
@@ -30,16 +40,6 @@ const experience: CvItem[] = [
             "Developed an LLM service for employees to generate project reports to be shared company wide",
             "Collaborated with team to publish website using Azure SQL/blob storage and OpenAI services",
             "Led security testing team on a different project, ensuring AI assistant and other website components were built and performed securely",
-        ],
-    },
-    {
-        title: "University of Georgia",
-        date: "August 2025 - Present",
-        subtitle1: "Project Engineer",
-        subtitle2: "Athens, GA",
-        details: [
-            "Developed auto graded assignments for the UGA Web Development class covering topics such as Node/React, Javascript, and HTML/CSS",
-            "Collaborated on assignment material for Web Development class through weekly meetings"
         ],
     },
     {

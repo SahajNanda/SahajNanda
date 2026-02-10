@@ -25,4 +25,44 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-@theme
+@layer components {
+
+  .emerald-500-pulse {
+    color: oklch(69.6% 0.17 162.48);
+    transition: all 900ms ease-in-out;
+    cursor: default;
+  }
+
+  .emerald-500-pulse:hover {
+    color: oklch(69.6% 0.17 162.48);
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  .white-pulse {
+    color: #ffffff;
+    transition: all 900ms ease-in-out;
+    cursor: default;
+  }
+
+  .white-pulse:hover {
+    color: oklch(69.6% 0.17 162.48);
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  .slate-300-pulse {
+    color: oklch(86.9% 0.022 252.894);
+    transition: all 900ms ease-in-out;
+    cursor: default;
+  }
+
+  .slate-300-pulse:hover {
+    color: oklch(69.6% 0.17 162.48);
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  @keyframes pulse {
+    50% {
+      opacity: 0.5;
+    }
+  }
+}

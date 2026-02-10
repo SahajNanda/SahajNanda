@@ -31,10 +31,10 @@ export default function ContactPage() {
                     <p className="text-gray-300 mb-8 text-center hover:text-emerald-500 hover:animate-pulse transition duration-900 ease-in-out cursor-default">
                         Fill out the form below or email me directly at{" "}
                         <a
-                            href="mailto:tosahajnanda@gmail.com"
+                            href="mailto:mail@sahajnanda.com"
                             className="text-emerald-500 hover:underline cursor-pointer"
                         >
-                            tosahajnanda@gmail.com
+                            mail@sahajnanda.com
                         </a>.
                     </p>
 

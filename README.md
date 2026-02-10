@@ -1,1 +1,1 @@
-## Cybersecurity grad student at the University of Gergia
+## CybSec grad student at the University of Gergia

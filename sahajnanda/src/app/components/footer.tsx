@@ -37,7 +37,7 @@ function Footer() {
                     </svg>
                 </a>
                 <a
-                    href='https://open.spotify.com'
+                    href='https://open.spotify.com/user/sahaj28'
                     target='_blank'
                     rel='noreferrer'
                     aria-label='Spotify'

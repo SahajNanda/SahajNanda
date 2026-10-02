@@ -1,1 +1,1 @@
-## CybSec grad student at the University of Georgia
+# Security engineer and alumnus of the University of Georgia

@@ -282,7 +282,7 @@ export default function App() {
                                     // Wait for animation to finish before removing the welcome screen
                                     setTimeout(() => setShowWelcome(false), 400);
                                 }}
-                                className="px-10 py-4 rounded-full text-xl font-bold tracking-wide transition-all duration-300 w-full sm:w-auto bg-[#538d4e] hover:bg-[#43723f] hover:scale-105 active:scale-95 text-white shadow-lg animate-play-btn-in opacity-0"
+                                className="px-10 py-4 rounded-full text-xl font-bold tracking-wide transition-all duration-300 w-full sm:w-[50%] bg-[#538d4e] hover:bg-[#43723f] hover:scale-105 active:scale-95 text-white shadow-lg animate-play-btn-in opacity-0"
                             >
                                 Play
                             </button>
@@ -360,28 +360,19 @@ export default function App() {
 
             {/* Header */}
             <header className="flex items-center justify-between px-5 h-16 border-b border-[#3a3a3c] shrink-0">
-                <div className="w-8">
-                    {/* <Link href="/" className="white-pulse px-3 py-2 cursor-pointer flex items-center justify-center">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="28"
-                            height="28"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            strokeWidth="2"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
+                <div className="w-8 flex">
+                    <Link href="/" className="px-3 py-2 cursor-pointer flex items-center justify-center transition-colors duration-300 ease-in-out hover:text-[#538d4e]">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
                         >
                             <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
                             <polyline points="9 22 9 12 15 12 15 22" />
                         </svg>
-                    </Link> */}
+                    </Link>
                 </div>
                 <h1 className="text-3xl font-extrabold tracking-widest uppercase">Sahajdle</h1>
                 <div className="w-8 flex justify-end">
                     <button
-                        className="white-pulse px-3 py-2 cursor-pointer flex items-center justify-center"
+                        className="px-3 py-2 cursor-pointer flex items-center justify-center transition-colors duration-300 ease-in-out hover:text-[#538d4e]"
                         onClick={() => setShowStats(true)}
                         title="Statistics"
                         aria-label="Statistics"

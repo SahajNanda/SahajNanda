@@ -474,7 +474,7 @@ export default function App() {
                     active:scale-95
                   `}
                                 >
-                                    {key === 'BACKSPACE' ? '⌫' : key}
+                                    {key === 'BACKSPACE' ? <span className="text-xl sm:text-base">⌫</span> : key}
                                 </button>
                             );
                         })}

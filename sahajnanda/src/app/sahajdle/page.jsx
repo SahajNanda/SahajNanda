@@ -282,7 +282,7 @@ export default function App() {
                                     // Wait for animation to finish before removing the welcome screen
                                     setTimeout(() => setShowWelcome(false), 400);
                                 }}
-                                className="px-10 py-4 rounded-full text-xl font-bold tracking-wide transition-all duration-300 w-full sm:w-[50%] bg-[#538d4e] hover:bg-[#43723f] hover:scale-105 active:scale-95 text-white shadow-lg animate-play-btn-in opacity-0"
+                                className="px-10 py-4 rounded-full text-xl font-bold tracking-wide transition-all duration-300 w-1/2 sm:w-[50%] bg-[#538d4e] hover:bg-[#43723f] hover:scale-105 active:scale-95 text-white shadow-lg animate-play-btn-in opacity-0"
                             >
                                 Play
                             </button>
